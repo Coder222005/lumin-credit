@@ -1,88 +1,89 @@
 # Lumin Credit
-Get clarity and a plan for your credit.
 
-## AI Credit Scoring Agent Prototype
+**Get clarity and a plan for your credit.**
 
-This project demonstrates a multi-agent credit scoring system. It includes a Python backend (running on Modal.com) and a React frontend.
+Lumin Credit is an advanced AI-powered credit scoring and financial planning system. It leverages a multi-agent architecture to provide users with dynamic credit score analysis, personalized improvement plans, and intelligent financial advice.
 
-### Architecture
+## 🚀 Key Features
 
-**Data Generator**: Creates 30 fake users with realistic financial profiles using Faker.
+### 🤖 Intelligent Agent Swarm
+The core of Lumin Credit is a swarm of specialized AI agents working together:
 
-**Credit Calculation Agent**: Algorithms to determine baseline credit score.
+*   **Score Impact Agent (The Adjuster):** Determines dynamic score impact values based on the user's current credit standing (e.g., rewarding recovery for lower scores).
+*   **Credit Calculation Agent (The Mathematician):** Calculates the base credit score using deterministic logic and real financial data.
+*   **Prediction Agent (The Analyst):** Uses **Nebius AI (Llama 3.3)** to analyze user data and generate specific, actionable text-based improvement plans.
+*   **Alerting Agent (The Watchdog):** Monitors transactions for risky behavior (e.g., large spending, late payments) and flags alerts.
+*   **Financial Plan Agent (The Wealth Advisor):** Suggests personalized loan eligibility and investment plans based on income and score.
+*   **Goal Setting Agent (The Strategist):** Generates tailored strategies to achieve specific financial goals (e.g., "Buy a House").
+*   **Limit Generator Agent (The Controller):** Calculates "Safe" and "Max" payment limits to ensure users don't overspend while saving for their goals.
+*   **Payment Agent (The Gatekeeper):** Evaluates payment requests against the user's balance and financial health, preventing dangerous overpayments.
 
-**Prediction Agent**: Analyzes user weak points (e.g., high utilization) and generates text-based improvement plans.
+### 📊 Interactive Dashboard
+*   **Real-time Score Visualization:** Dynamic credit score meter and historical trend analysis.
+*   **Financial Health Overview:** Detailed breakdown of income, debt, utilization, and payment history.
+*   **Goal Tracking:** Set and monitor progress towards financial goals.
+*   **Transaction History:** Scrollable list of past transactions with status indicators.
 
-**Alerting Agent**: Watches simulated transactions. If a user on a "debt reduction plan" spends drastically, it flags an alert.
+### 💳 Smart Payment System
+*   **Payment Verification:** Intelligent "Make Payment" functionality that checks for sufficient funds and prevents inefficient overpayments.
+*   **Safe Limit Calculation:** Automatically suggests safe payment amounts to maintain financial stability.
 
-### How to Run
+## 🛠️ Tech Stack
 
-#### 1. The Backend (Modal.com)
+*   **Frontend:** React, Vite, Tailwind CSS, Recharts, Chart.js, Lucide React.
+*   **Backend:** Python, Flask, Modal.com (Serverless Deployment).
+*   **AI/LLM:** Nebius AI (Llama 3.3-70B-Instruct) for intelligent agent logic.
 
-You need the modal python client installed.
+## ⚙️ Installation & Setup
 
-Install dependencies:
+### 1. Backend Setup (Modal.com)
 
-```bash
-pip install modal faker
-```
+The backend runs on Modal.com for serverless scalability.
 
-Authenticate with Modal:
+1.  **Install Dependencies:**
+    ```bash
+    pip install modal flask flask-cors openai
+    ```
 
-```bash
-modal setup
-```
+2.  **Authenticate with Modal:**
+    ```bash
+    modal setup
+    ```
 
-Run the backend in dev mode (hot reload):
+3.  **Run Locally (Dev Mode):**
+    ```bash
+    modal serve backend.py
+    ```
+    *Copy the URL provided in the terminal (e.g., `https://your-username--lumincredit-backend-web-app.modal.run`).*
 
-```bash
-modal serve backend.py
-```
+### 2. Frontend Setup
 
-Copy the URL provided in the terminal (e.g., https://your-username--credit-api.modal.run).
+1.  **Navigate to Frontend Directory:**
+    ```bash
+    cd frontend
+    ```
 
-#### 2. The Frontend (React)
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-The CreditApp.jsx file provided is a self-contained React component.
+3.  **Configure Backend URL:**
+    *   Update the fetch URL in `src/Dashboard.jsx` (or relevant components) to point to your Modal backend URL.
 
-In the CreditApp.jsx code, look for the generateMockUsers function.
+4.  **Run Development Server:**
+    ```bash
+    npm run dev
+    ```
 
-To connect to the real backend:
-Replace the useEffect mock data generation in CreditApp.jsx with a fetch call to your Modal URL:
+## 📂 Project Structure
 
-```javascript
-useEffect(() => {
-  fetch('https://your-username--credit-api.modal.run')
-    .then(res => res.json())
-    .then(response => {
-       setUsers(response.data);
-       // ... rest of setup
-    });
-}, []);
-```
+*   `backend.py`: Main backend application file containing all agent classes and Flask routes.
+*   `frontend/`: React frontend application.
+    *   `src/Dashboard.jsx`: Main dashboard component integrating all UI elements.
+    *   `src/components/`: Reusable UI components (AgentSwarm, Navbar, etc.).
+*   `data.json` / `user_data.json`: Synthetic user data storage.
 
-### Token Bus IO / LLM Integration
+---
 
-Currently, the agents use deterministic logic for speed and stability in the prototype. To use a real LLM (via TokenBus or OpenAI):
-
-In backend.py, import your request library.
-
-Update PredictionAgent.analyze:
-
-```python
-def analyze(user_data, current_score):
-    # Example pseudo-code
-    prompt = f"User has income {user_data['income']} and debt {user_data['debt']}. Suggest improvements."
-    response = requests.post("https://api.tokenbus.io/...", json={"prompt": prompt})
-    return response.json()['plan']
-```
-
-### UI Standards
-
-The UI follows the "Modal.com" aesthetic:
-
-**Font**: Sans-serif for UI, Monospace for numbers/code.
-
-**Colors**: Zinc-950 background, Zinc-800 borders, Emerald-500 accents.
-
-**Interactivity**: Hover states on all cards, interactive Recharts graphs.
+*Built with ❤️ by the Lumin Credit Team.*
