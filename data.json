@@ -1,0 +1,2322 @@
+[
+    {
+        "user_id": "A",
+        "scenario_title": "The Ideal",
+        "credit_limit": 800000,
+        "current_balance": 16000,
+        "utilization": 0.02,
+        "monthly_spend": 50000,
+        "min_payment_due": 5000,
+        "emi_amount": 20000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 1000000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.0,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "12/12 EMI on time. Low, consistent spending.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 0,
+                "date": "2025-12-20",
+                "type": "Normal_Transaction",
+                "amount": 3000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-20",
+                "type": "Normal_Transaction",
+                "amount": 4500,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-20",
+                "type": "Normal_Transaction",
+                "amount": 2800,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-20",
+                "type": "Normal_Transaction",
+                "amount": 3500,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-20",
+                "type": "Normal_Transaction",
+                "amount": 1200,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-20",
+                "type": "Normal_Transaction",
+                "amount": 4000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-20",
+                "type": "Normal_Transaction",
+                "amount": 2900,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-20",
+                "type": "Normal_Transaction",
+                "amount": 1800,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-20",
+                "type": "Normal_Transaction",
+                "amount": 3200,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-20",
+                "type": "Normal_Transaction",
+                "amount": 2500,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-20",
+                "type": "Normal_Transaction",
+                "amount": 1900,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-20",
+                "type": "Normal_Transaction",
+                "amount": 4200,
+                "status": "Completed"
+            }
+        ]
+    },
+    {
+        "user_id": "R",
+        "scenario_title": "Cleared Debt",
+        "credit_limit": 800000,
+        "current_balance": 5000,
+        "utilization": 0.006,
+        "monthly_spend": 1000,
+        "min_payment_due": 500,
+        "emi_amount": 0,
+        "num_active_accounts": 3,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 1000000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.0,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "Major Loan repaid 5 months ago (big final payment).",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "Loan_Repayment",
+                "amount": 0,
+                "status": "Loan Closed"
+            },
+            {
+                "month_offset": 0,
+                "date": "2025-12-20",
+                "type": "Normal_Transaction",
+                "amount": 1000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "Loan_Repayment",
+                "amount": 0,
+                "status": "Loan Closed"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "Loan_Repayment",
+                "amount": 0,
+                "status": "Loan Closed"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "Final_Loan_Payment",
+                "amount": 400000,
+                "status": "Loan Repaid in Full"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "K",
+        "scenario_title": "The Elite",
+        "credit_limit": 800000,
+        "current_balance": 80000,
+        "utilization": 0.10,
+        "monthly_spend": 50000,
+        "min_payment_due": 5000,
+        "emi_amount": 40000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 1000000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.0,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "M",
+        "salary_credit_day": 1,
+        "historical_context": "12/12 High EMI on time. Low CC utilization maintained.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 0,
+                "date": "2025-12-20",
+                "type": "Normal_Transaction",
+                "amount": 1500,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-20",
+                "type": "Normal_Transaction",
+                "amount": 5000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "I",
+        "scenario_title": "Just Missed",
+        "credit_limit": 800000,
+        "current_balance": 500000,
+        "utilization": 0.625,
+        "monthly_spend": 50000,
+        "min_payment_due": 5000,
+        "emi_amount": 20000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 1,
+        "days_past_due": 5,
+        "savings_balance": 50000,
+        "late_payment_flag_30d": 1,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "EMI paid late (5 days past due) this month. Savings critically low.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "5 Days Late"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "E",
+        "scenario_title": "New Credit Seeker",
+        "credit_limit": 800000,
+        "current_balance": 280000,
+        "utilization": 0.35,
+        "monthly_spend": 50000,
+        "min_payment_due": 5000,
+        "emi_amount": 20000,
+        "num_active_accounts": 6,
+        "num_new_inquiries_6m": 6,
+        "days_past_due": 0,
+        "savings_balance": 1000000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "M",
+        "salary_credit_day": 1,
+        "historical_context": "3 new accounts opened (6 inquiries) in the last 6 months.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 0,
+                "date": "2025-12-15",
+                "type": "Credit_Inquiry",
+                "amount": 0,
+                "status": "Hard Pull"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-15",
+                "type": "New_Account_Opened",
+                "amount": 0,
+                "status": "Approved"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-15",
+                "type": "Credit_Inquiry",
+                "amount": 0,
+                "status": "Hard Pull"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-15",
+                "type": "New_Account_Opened",
+                "amount": 0,
+                "status": "Approved"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-15",
+                "type": "New_Account_Opened",
+                "amount": 0,
+                "status": "Approved"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "G",
+        "scenario_title": "The Growth Spender",
+        "credit_limit": 800000,
+        "current_balance": 600000,
+        "utilization": 0.75,
+        "monthly_spend": 150000,
+        "min_payment_due": 50000,
+        "emi_amount": 50000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 1000000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.50,
+        "cash_advance_amt": 0,
+        "annual_income": 2000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "Spending grew 50% in last 3 months. High current utilization.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 0,
+                "date": "2025-12-25",
+                "type": "Large_Purchase",
+                "amount": 80000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-25",
+                "type": "Large_Purchase",
+                "amount": 75000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-25",
+                "type": "Normal_Transaction",
+                "amount": 50000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "C",
+        "scenario_title": "High Utilization",
+        "credit_limit": 800000,
+        "current_balance": 790000,
+        "utilization": 0.9875,
+        "monthly_spend": 100000,
+        "min_payment_due": 50000,
+        "emi_amount": 20000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 500000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "12/12 EMI on time, but CC has been maxed out for 6+ months.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 0,
+                "date": "2025-12-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "L",
+        "scenario_title": "Recent Default",
+        "credit_limit": 800000,
+        "current_balance": 400000,
+        "utilization": 0.50,
+        "monthly_spend": 70000,
+        "min_payment_due": 10000,
+        "emi_amount": 20000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 1,
+        "days_past_due": 0,
+        "savings_balance": 400000,
+        "late_payment_flag_30d": 1,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "M",
+        "salary_credit_day": 1,
+        "historical_context": "60-day late payment 2 months ago, now current.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 0,
+                "date": "2025-12-25",
+                "type": "Normal_Transaction",
+                "amount": 5000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-10",
+                "type": "EMI_Repayment",
+                "amount": 40000,
+                "status": "Paid Current + Past Due"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-20",
+                "type": "Normal_Transaction",
+                "amount": 25000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-10",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "MISSED (Reported 60 Days Late)"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-10",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "D",
+        "scenario_title": "Payment Default Risk",
+        "credit_limit": 800000,
+        "current_balance": 300000,
+        "utilization": 0.375,
+        "monthly_spend": 50000,
+        "min_payment_due": 10000,
+        "emi_amount": 20000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 4,
+        "days_past_due": 90,
+        "savings_balance": 50000,
+        "late_payment_flag_30d": 1,
+        "spend_growth_3m": 0.0,
+        "cash_advance_amt": 0,
+        "annual_income": 1000000,
+        "employment_type": "salaried",
+        "region": "small_city",
+        "gender": "M",
+        "salary_credit_day": 1,
+        "historical_context": "Chronically missing payments (4 in 12 months); currently 90 days late.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "90 Days Late"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "60 Days Late"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "30 Days Late"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "30 Days Late"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "30 Days Late"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "30 Days Late"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "P",
+        "scenario_title": "Frequent Late Payer",
+        "credit_limit": 800000,
+        "current_balance": 200000,
+        "utilization": 0.25,
+        "monthly_spend": 50000,
+        "min_payment_due": 5000,
+        "emi_amount": 20000,
+        "num_active_accounts": 5,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 6,
+        "days_past_due": 20,
+        "savings_balance": 400000,
+        "late_payment_flag_30d": 1,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "6/12 payments late (within 30 days). Currently 20 days late.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-25",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "20 Days Late"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-28",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "23 Days Late"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-20",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "15 Days Late"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-12",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "7 Days Late"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-18",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "13 Days Late"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-25",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "20 Days Late"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "N",
+        "scenario_title": "High DTI Burden",
+        "credit_limit": 800000,
+        "current_balance": 600000,
+        "utilization": 0.75,
+        "monthly_spend": 80000,
+        "min_payment_due": 20000,
+        "emi_amount": 60000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 500000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 0,
+        "annual_income": 1500000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "12/12 EMI on time, but DTI is extremely high (64%).",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "J",
+        "scenario_title": "Self-Employed Risk",
+        "credit_limit": 800000,
+        "current_balance": 400000,
+        "utilization": 0.50,
+        "monthly_spend": 60000,
+        "min_payment_due": 50000,
+        "emi_amount": 60000,
+        "num_active_accounts": 5,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 300000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 0,
+        "annual_income": 1500000,
+        "employment_type": "self-employed",
+        "region": "small_city",
+        "gender": "M",
+        "salary_credit_day": 1,
+        "historical_context": "Self-employed, high fixed EMI/debt relative to variable income.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 60000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "M",
+        "scenario_title": "The Slow Recovery",
+        "credit_limit": 800000,
+        "current_balance": 100000,
+        "utilization": 0.12,
+        "monthly_spend": 50000,
+        "min_payment_due": 5000,
+        "emi_amount": 20000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 4,
+        "days_past_due": 0,
+        "savings_balance": 1000000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "4x 30 Days Late payments 10-12 months ago; 8 months of perfect payments since.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "30 Days Late"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "30 Days Late"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "30 Days Late"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 0,
+                "status": "30 Days Late"
+            }
+        ]
+    },
+    {
+        "user_id": "O",
+        "scenario_title": "Maxed Out with No Defaults",
+        "credit_limit": 800000,
+        "current_balance": 760000,
+        "utilization": 0.95,
+        "monthly_spend": 50000,
+        "min_payment_due": 50000,
+        "emi_amount": 30000,
+        "num_active_accounts": 3,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 500000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "12/12 on-time payments, but utilization persistently near 95%.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-15",
+                "type": "CC_Min_Payment",
+                "amount": 50000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "F",
+        "scenario_title": "Cash Advance User",
+        "credit_limit": 800000,
+        "current_balance": 480000,
+        "utilization": 0.60,
+        "monthly_spend": 70000,
+        "min_payment_due": 50000,
+        "emi_amount": 20000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 500000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.10,
+        "cash_advance_amt": 50000,
+        "annual_income": 2000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "F",
+        "salary_credit_day": 1,
+        "historical_context": "Took a large cash advance 3 months ago; consistently high utilization.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-20",
+                "type": "Cash_Advance",
+                "amount": 50000,
+                "status": "Disbursed"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "B",
+        "scenario_title": "Conservative Spender",
+        "credit_limit": 800000,
+        "current_balance": 10000,
+        "utilization": 0.0125,
+        "monthly_spend": 5000,
+        "min_payment_due": 5000,
+        "emi_amount": 0,
+        "num_active_accounts": 2,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 5000000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.0,
+        "cash_advance_amt": 0,
+        "annual_income": 8000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "M",
+        "salary_credit_day": 1,
+        "historical_context": "Extremely low utilization, no EMI, high savings/income.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-15",
+                "type": "CC_Full_Payment",
+                "amount": 5000,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-15",
+                "type": "CC_Full_Payment",
+                "amount": 4000,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-15",
+                "type": "CC_Full_Payment",
+                "amount": 5500,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-15",
+                "type": "CC_Full_Payment",
+                "amount": 4800,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-15",
+                "type": "CC_Full_Payment",
+                "amount": 5100,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-15",
+                "type": "CC_Full_Payment",
+                "amount": 4500,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-15",
+                "type": "CC_Full_Payment",
+                "amount": 5200,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-15",
+                "type": "CC_Full_Payment",
+                "amount": 4900,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-15",
+                "type": "CC_Full_Payment",
+                "amount": 5300,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-15",
+                "type": "CC_Full_Payment",
+                "amount": 4700,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-15",
+                "type": "CC_Full_Payment",
+                "amount": 5000,
+                "status": "Paid in Full"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-15",
+                "type": "CC_Full_Payment",
+                "amount": 4800,
+                "status": "Paid in Full"
+            }
+        ]
+    },
+    {
+        "user_id": "H",
+        "scenario_title": "The Timely Payer",
+        "credit_limit": 800000,
+        "current_balance": 100000,
+        "utilization": 0.125,
+        "monthly_spend": 50000,
+        "min_payment_due": 10000,
+        "emi_amount": 20000,
+        "num_active_accounts": 4,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 1000000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.0,
+        "cash_advance_amt": 0,
+        "annual_income": 4000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "M",
+        "salary_credit_day": 28,
+        "historical_context": "Perfectly timely payments, but salary hits late in the month (Day 28).",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 0,
+                "date": "2025-12-28",
+                "type": "Salary_Credit",
+                "amount": 333333,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-28",
+                "type": "Salary_Credit",
+                "amount": 333333,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "user13",
+        "scenario_title": "Volatile Recovery",
+        "credit_limit": 500000,
+        "current_balance": 350000,
+        "utilization": 0.70,
+        "monthly_spend": 40000,
+        "min_payment_due": 15000,
+        "emi_amount": 10000,
+        "num_active_accounts": 5,
+        "num_new_inquiries_6m": 2,
+        "num_missed_payments_12m": 4,
+        "days_past_due": 0,
+        "savings_balance": 20000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": -0.10,
+        "cash_advance_amt": 5000,
+        "annual_income": 1800000,
+        "employment_type": "freelance",
+        "region": "metro",
+        "gender": "M",
+        "salary_credit_day": 5,
+        "historical_context": "Score dropped significantly mid-year due to missed payments, now recovering but volatile.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 0,
+                "date": "2025-12-15",
+                "type": "Normal_Transaction",
+                "amount": 5000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Late (30 Days)"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-20",
+                "type": "Cash_Advance",
+                "amount": 5000,
+                "status": "Completed"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Missed"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Late (60 Days)"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Missed"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Late (30 Days)"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "EMI_Repayment",
+                "amount": 10000,
+                "status": "Paid on Time"
+            }
+        ]
+    },
+    {
+        "user_id": "S",
+        "scenario_title": "The Stable High",
+        "credit_limit": 1000000,
+        "current_balance": 5000,
+        "utilization": 0.005,
+        "monthly_spend": 20000,
+        "min_payment_due": 1000,
+        "emi_amount": 0,
+        "num_active_accounts": 5,
+        "num_new_inquiries_6m": 0,
+        "num_missed_payments_12m": 0,
+        "days_past_due": 0,
+        "savings_balance": 2000000,
+        "late_payment_flag_30d": 0,
+        "spend_growth_3m": 0.0,
+        "cash_advance_amt": 0,
+        "annual_income": 5000000,
+        "employment_type": "salaried",
+        "region": "metro",
+        "gender": "M",
+        "salary_credit_day": 1,
+        "historical_context": "Perfect history. Score stays at 900.",
+        "transactions": [
+            {
+                "month_offset": 0,
+                "date": "2025-12-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 1,
+                "date": "2025-11-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 2,
+                "date": "2025-10-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 3,
+                "date": "2025-09-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 4,
+                "date": "2025-08-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 5,
+                "date": "2025-07-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 6,
+                "date": "2025-06-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 7,
+                "date": "2025-05-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 8,
+                "date": "2025-04-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 9,
+                "date": "2025-03-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 10,
+                "date": "2025-02-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            },
+            {
+                "month_offset": 11,
+                "date": "2025-01-05",
+                "type": "CC_Full_Payment",
+                "amount": 20000,
+                "status": "Paid on Time"
+            }
+        ]
+    }
+]
